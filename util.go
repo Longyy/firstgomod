@@ -8,3 +8,7 @@ func Max(x, y int) bool {
 func Min(x, y int) bool {
 	return x < y
 }
+//计算平均值
+func Avg(x, y float32) float32 {
+	return (x + y) / 2
+}
